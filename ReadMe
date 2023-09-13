@@ -1,0 +1,10 @@
+Опишите ваши дальнейшие действия что бы ваш код появился в ветке master в репозитории git@example.com:example/test.git
+
+1 крок: командою git init ініціалізуємо git у папці з нашим проектом
+2 крок: добавляємо всі наші зміни командою git add .
+3 крок: добавляємо перший коментар до наших файлів командою git commit -m "first commit"
+4 крок: робимо головну вітку git branch -M master
+5 крок: Визначаємо до якого репозиторію будемо звертатись git remote add origin git@example.com:example/test.git
+6 крок: пушимо зміни git push  origin 
+
+

@@ -1,0 +1,41 @@
+body {
+  gap: 8px;
+  margin: 0;
+  padding: 5%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  gap: 20px;
+  height: 60vh;
+  display: flex;
+}
+main > section {
+  width: 80%;
+}
+main > aside {
+  width: 25%;
+}
+.general {
+  padding: 20px;
+  text-align: center;
+  border: 1px black solid;
+}
+
+.link {
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

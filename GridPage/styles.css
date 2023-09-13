@@ -1,0 +1,54 @@
+body {
+  gap: 8px;
+  margin: 0;
+  padding: 5%;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto 1fr auto;
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+}
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+main {
+  gap: 20px;
+  display: grid;
+  grid-area: main;
+  grid-template-columns: 3fr 1fr;
+}
+
+footer {
+  grid-area: footer;
+}
+
+.general {
+  padding: 20px;
+  text-align: center;
+  border: 1px black solid;
+}
+
+.link {
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: blue;
+  cursor: pointer;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

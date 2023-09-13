@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  animation: squareAnimation 4s linear infinite;
+}
+
+.link {
+  top: 10px;
+  left: 10px;
+  position: absolute;
+  text-decoration: none;
+  font-size: solid;
+}
+.link:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+@keyframes squareAnimation {
+  0% {
+    transform: rotate(0deg);
+    background-color: red;
+  }
+  25% {
+    background-color: orange;
+  }
+  50% {
+    transform: rotate(180deg);
+    background-color: green;
+  }
+  75% {
+    background-color: orange;
+  }
+  100% {
+    transform: rotate(360deg);
+    background-color: red;
+  }
+}
